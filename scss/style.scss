@@ -1,0 +1,46 @@
+
+//  ========= Import bloks ============
+
+@import "../scss/bloks/header";
+@import "../scss/bloks/post";
+@import "../scss/bloks/sidebar";
+@import "../scss/bloks/comment";
+
+
+
+
+//  ========= Color scss ============
+
+$gray: #BFBFBF;
+$bg: #C4C4C4;
+
+body{
+    background: #E5E5E5;
+    font-family: 'SF Pro Display';
+}
+
+//  ========= General scss ============
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.sidebar {
+    width: 370px;
+    margin-top: 30px;
+    
+    &__aside {}
+}

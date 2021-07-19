@@ -1,0 +1,74 @@
+
+
+.header {
+    background: #FA8C16;
+    height: 64px;
+    font-family: 'SF Pro Display';
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+
+    &__wrapper {
+        padding: 16px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 60px;
+    }
+
+
+    &__list {
+        display: flex;
+    }
+
+    &__group{
+        align-items: center;
+        display: flex;
+    }
+
+    &__menu-item {
+        padding-right: 15px;
+    }
+
+    &__menu-link {
+        font-size: 14px;
+        text-decoration: none;
+        color: #FAFAFA;
+    }
+}
+
+
+
+.search {
+    padding-left: 12px;
+    width: 237px;
+    height: 32px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    overflow: hidden;
+    &__input {
+        width: 85%;
+        height: 100%;
+        border: none;
+        &:focus{
+            border: 0px solid transparent;
+        }
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        height: 100%;
+        border: none;
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+}

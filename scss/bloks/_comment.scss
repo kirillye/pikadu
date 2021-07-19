@@ -1,0 +1,28 @@
+.comment {
+    background: #fff;
+    border: 1px solid #E8E8E8;
+    
+
+    &__day {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #595959;
+        padding: 25px 23px;
+        background: #FAFAFA;
+    }
+
+    &__body {
+        padding: 22px 40px 30px 25px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__title {
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #D48806;
+    }
+
+
+}

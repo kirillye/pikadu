@@ -1,0 +1,141 @@
+
+
+.main {
+    max-width: 800px;
+}
+
+.post {
+    margin: 30px 0px;
+    border: 1px solid #E8E8E8;
+
+    &__body{
+        background-color: #fff;
+        padding: 25px 35px 25px ;
+    }
+
+    // .post__title
+
+    &__title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    // .post__text
+
+    &__text {}
+
+    // .post__tags
+
+    &__tags {
+        margin-top: 10px;
+    }
+
+    // .post__teg
+
+    &__teg {
+        
+        font-size: 14px;
+        line-height: 22px;
+        color: #BFBFBF;
+        padding-right: 10px;
+    }
+
+    // .post__footer
+
+    &__footer {
+        height: 66px;
+        padding:  0px 36px;
+        display: flex;
+        justify-content: space-between;
+        background: #FAFAFA;
+    }
+
+    // .post__buttons
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    &__button{
+        color: #8C8C8C;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 19px;
+    }
+
+
+    &__padding{
+        padding-left: 5px;
+    }
+    // .post__likes-counter
+
+    &__likes-counter {}
+
+    // .post__comment-counter
+
+    &__comment-counter {}
+
+    // .post__author
+
+    &__author {
+        align-items: center;
+        display: flex;
+    }
+
+    // .post__author-info
+
+    &__author-info {
+        margin-right: 10px;
+    }
+
+    // .post__author-name
+
+    &__author-name {
+        text-align: right;
+        line-height: 20px;
+        font-size: 12px;
+        color: #8C8C8C
+    }
+
+    // .post__author-time
+
+    &__author-time {
+        color: #BFBFBF;
+        font-size: 12px;
+    }
+
+    // .post__author-image
+
+    &__author-image {
+        height: 40px;
+        width: 40px;
+        img {
+            border-radius: 100%;
+        }
+    }
+}
+
+.likes {}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: #8C8C8C;
+}
+
+.comment {}
+
+.save {}
+
+.share {}
+
+.sidebar {
+    max-width: 370px ;
+}
