@@ -33,6 +33,11 @@
                     <input type="search" class="search__input" placeholder="Поиск по сайту">
                     <button class="search__button"><img src="/img/Vector.svg" alt="icon-serch"></button>
                 </div>
+                <a href="#" class="header__burger" id="menu-toggle">
+                    <div class="header__row"></div>
+                    <div class="header__row"></div>
+                    <div class="header__row"></div>
+                </a>
             </div>
         </div>
     </header> 
@@ -75,7 +80,7 @@
                             </svg>
                             <span class="post__likes-counter post__padding">26</span>
                         </button>
-                        <button class="post__button comment">
+                        <button class="post__button ">
                             <svg class="icon">
                                 <use xlink:href="img/icons.svg#comment"></use>
                             </svg>
@@ -143,7 +148,7 @@
                             </svg>
                             <span class="post__likes-counter post__padding">26</span>
                         </button>
-                        <button class="post__button comment">
+                        <button class="post__button ">
                             <svg class="icon">
                                 <use xlink:href="img/icons.svg#comment"></use>
                             </svg>
@@ -180,13 +185,17 @@
 
         </div>
 
+
+        <!-- Sidebar -->
         <div class="sidebar">
 
             <aside class="sidebar__aside">
                 <div class="user">
                     <div class="user__info">
-                        <img src="../img/avatar.jpg" alt="" class="user__image">
-                        <span class="user__name">Inveris</span>
+                        <div class="user__face">
+                            <img src="../img/avatar.jpg" alt="" class="user__image">
+                            <span class="user__name">Inveris</span>
+                        </div>
                         <a href="#" class="user__exit">
                             <svg class="user__icon">
                                 <use xlink:href="img/icons.svg#Vector"></use>
@@ -252,5 +261,7 @@
     </div>
     <!-- Content  end-->
 
+
+<script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,6 +1,12 @@
 
 
 .header {
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
     background: #FA8C16;
     height: 64px;
     font-family: 'SF Pro Display';
@@ -35,6 +41,10 @@
         font-size: 14px;
         text-decoration: none;
         color: #FAFAFA;
+    }
+
+    &__burger{
+        display: none;
     }
 }
 

@@ -5,7 +5,7 @@
     &__info {
         padding: 15px 25px;
         display: flex;
-        
+        justify-content: space-between;
         align-items: center;
         border: 1px solid #f1f0f0;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -19,7 +19,7 @@
     }
 
     &__name {
-        flex-basis:235px;
+        
     }
 
     &__exit{
@@ -31,6 +31,12 @@
         fill: #000;
         height: 20px;
         width: 20px;
+    }
+
+    &__face{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
 }
@@ -92,6 +98,9 @@
 .banner {
     margin-top: 20px;
     cursor: pointer;
-    &__image {}
+
+    &__image{
+        width: 100%;
+    }
 }
 
